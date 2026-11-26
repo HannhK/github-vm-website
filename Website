@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cloud Administration Project</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #020617, #172554);
+            color: white;
+        }
+        .container {
+            width: 100%;
+            max-width: 750px;
+            padding: 45px;
+            border: 1px solid #334155;
+            border-radius: 24px;
+            background: #0f172a;
+            text-align: center;
+        }
+        h1 { color: #38bdf8; }
+        p { color: #cbd5e1; line-height: 1.7; }
+        .status {
+            padding: 12px;
+            background: #064e3b;
+            border-radius: 8px;
+            color: #86efac;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin: 25px 0;
+        }
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <p>CLOUD ADMINISTRATION PRACTICAL</p>
+        <h1>GitHub Cloud Deployment</h1>
+        <p>Developed by Hannah Kaur Bagga</p>
+
+        <div class="status">Website is online</div>
+
+        <div class="grid">
+            <div class="card">GitHub</div>
+            <div class="card">Ubuntu Server</div>
+            <div class="card">Nginx</div>
+            <div class="card">Load Balancing</div>
+            <div class="card">Autoscaling</div>
+            <div class="card">Git Synchronisation</div>
+        </div>
+
+        <p>Website Version 1.0</p>
+    </main>
+</body>
+</html>
